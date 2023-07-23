@@ -8,10 +8,10 @@ Manipulate student data using Laravel Framework.
 
 ## Features 
 
-- View student data
-- Add new student data
-- Update student data
-- Delete student data
+- View student data.
+- Add new student data.
+- Update student data.
+- Delete student data.
 
 ## Tech
 
