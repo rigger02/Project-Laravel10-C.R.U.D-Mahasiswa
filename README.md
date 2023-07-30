@@ -1,63 +1,66 @@
-# CRUD MAHASISWA WITH LARAVEL
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+## About Laravel
 
-Manipulate student data using Laravel Framework.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Features 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- View student data.
-- Add new student data.
-- Update student data.
-- Delete student data.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Tech
+## Learning Laravel
 
-- [HTML](https://whatwg.org/) - Standard Markup language for documents designed to be displayed in a web browser.
-- [CSS](https://id.wikipedia.org/wiki/Cascading_Style_Sheets) - Used for styling to make it more attractive.
-- [XAMPP](https://www.apachefriends.org/download.html) - Used as a web server to connect to the web browser.
-- [Chrome](https://www.google.com/intl/en_au/chrome/) - Web browser used to run the program.
-- [PHP](https://www.php.net/downloads.php) - PHP download.
-- [Sublime Text](https://www.sublimetext.com/) - Text editor used to create the program.
-- [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - Bootstrap 5.1.3 framework.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## Requirements
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-- XAMPP 7.4.9 or later
-- PHP 7.2 or later
-- Bootstrap 5.0 or later
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Installation
-Move all files into a folder:
+## Laravel Sponsors
 
-## How to Use
-- Start Apache and MySQL in the XAMPP control panel.
-- Create a database, for example, 'laravel-crud'.
-- Go to the root of the Laravel project.
-- Run the command `composer update` in the terminal.
-- Modify the .env file in the database section to the name of the database created earlier.
-- Run the command `php artisan serve`.
-- Access it in the browser.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-## Tutorial
-1. Open the CRUD Mahasiswa application by accessing `localhost/[your folder]` in the web browser.
-2. The main page will display a list of student data.
-3. To add new student data, click the "Tambah Data Baru" button and fill out the form that appears.
-4. To edit student data, click the "Edit" button on the row of the student data to be modified.
-5. To delete student data, click the "Hapus" button on the row of the student data to be deleted. A confirmation will appear before the data is deleted.
+### Premium Partners
 
-## Credit
-*[RIGGER DAMAIARTA TEJAYANDA](https://www.instagram.com/rigger_dt/?hl=id)
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-## Contact me
-If you have any questions or feedback regarding this project, please contact me via email at [akangrigger@gmail.com].
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-MIT
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

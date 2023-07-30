@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 22, 2023 at 07:29 PM
+-- Generation Time: Jul 30, 2023 at 03:42 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -18,48 +18,51 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `laravel-mahasiswa`
+-- Database: `ipa1`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `mahasiswa`
+-- Table structure for table `murid`
 --
 
-CREATE TABLE `mahasiswa` (
-  `id_mahasiswa` int(11) NOT NULL,
-  `nama_mahasiswa` varchar(255) NOT NULL,
-  `nim_mahasiswa` varchar(20) NOT NULL,
-  `prodi_mahasiswa` varchar(50) NOT NULL
+CREATE TABLE `murid` (
+  `id_murid` int(11) NOT NULL,
+  `nama_murid` varchar(50) NOT NULL,
+  `umur_murid` varchar(50) NOT NULL,
+  `hobi_murid` varchar(50) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `mahasiswa`
+-- Dumping data for table `murid`
 --
 
-INSERT INTO `mahasiswa` (`id_mahasiswa`, `nama_mahasiswa`, `nim_mahasiswa`, `prodi_mahasiswa`) VALUES
-(1, 'rigger', '123', 'if');
+INSERT INTO `murid` (`id_murid`, `nama_murid`, `umur_murid`, `hobi_murid`, `created_at`, `updated_at`) VALUES
+(1, 'diva', '20', 'nonton youtube', '2023-07-30 06:14:01', '2023-07-30 06:14:01'),
+(2, 'Rigger', '20', 'main fifa', '2023-07-30 06:19:53', '2023-07-30 06:33:05');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `mahasiswa`
+-- Indexes for table `murid`
 --
-ALTER TABLE `mahasiswa`
-  ADD PRIMARY KEY (`id_mahasiswa`);
+ALTER TABLE `murid`
+  ADD PRIMARY KEY (`id_murid`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `mahasiswa`
+-- AUTO_INCREMENT for table `murid`
 --
-ALTER TABLE `mahasiswa`
-  MODIFY `id_mahasiswa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `murid`
+  MODIFY `id_murid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
